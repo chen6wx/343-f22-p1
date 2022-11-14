@@ -1,0 +1,74 @@
+main {
+  padding: 50px;
+}
+
+h1 {
+  font-size: 36px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  font-size: 24px;
+  flex-wrap: wrap;
+  outline: solid black 1px;
+  padding: 20px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.left {
+  width: 20%;
+}
+
+.right {
+  width: 80%;
+}
+
+label {
+  padding: 10px;
+  font-size: 16px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px 5px;
+  background-color: white;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+  background-color: black;
+  color: white;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  /* fulfills requirement 5 */
+  .row {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+}

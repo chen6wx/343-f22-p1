@@ -1,0 +1,18 @@
+
+.first {
+    display: flex;
+    background-image: url("/images/october_pic_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 36px;
+    text-decoration: none;
+    height: 100vh;
+  }
+  
+  .first:hover {
+    filter: grayscale(100);
+  }

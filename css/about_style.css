@@ -1,0 +1,103 @@
+h1 {
+  font-size: 50px;
+  padding: 25px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  padding: 0px 10px;
+}
+
+.left {
+  width: 20%;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+.about-me {
+  font-size: 24px;
+  padding: 50px;
+  width: 80%;
+  border: solid 1px black;
+}
+
+p {
+  margin: 5px;
+}
+
+br {
+  margin-bottom: 25px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1px 10px;
+}
+
+.instagram,
+.deviantart,
+.twitter,
+.facebook {
+  background-size: contain;
+  background-color: white;
+  background-repeat: no-repeat;
+  height: 42px;
+  width: 42px;
+  background-position: center;
+}
+
+.instagram {
+  background-image: url(../images/Instagram_Glyph_Black.png);
+}
+
+.instagram:hover {
+  background-image: url(../images/Instagram_Glyph_White.png);
+  background-color: black;
+}
+
+.deviantart {
+  background-image: url(../images/DeviantArt_Mark_black_1.png);
+}
+
+.deviantart:hover {
+  background-image: url(../images/DeviantArt_Mark_white_1.png);
+  background-color: black;
+}
+
+.twitter {
+  background-image: url(../images/2021\ Twitter\ logo\ -\ black.png);
+}
+
+.twitter:hover {
+  background-image: url(../images/2021\ Twitter\ logo\ -\ white.png);
+  background-color: black;
+}
+
+.facebook {
+  background-image: url(../images/f_logo_RGB-Black_144.png);
+}
+
+.facebook:hover {
+  background-image: url(../images/f_logo_RGB-White_144.png);
+  background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  /* fulfills requirement 5 */
+  .about {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+  }
+  .about-me {
+    width: 100%;
+  }
+}

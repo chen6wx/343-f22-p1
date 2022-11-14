@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.October2022 {
+  display: flex;
+  flex-direction: row;
+}
+
+.March2022 {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  padding: 10px;
+  order: 1;
+  min-width: 100px;
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+
+.pictures {
+  order: 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-left: 1px solid black;
+}
+
+.image {
+  width: 500px;
+  height: auto;
+  padding: 5px;
+  margin: 0px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
