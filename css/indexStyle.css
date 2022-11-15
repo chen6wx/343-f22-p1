@@ -1,7 +1,7 @@
 
 .first {
     display: flex;
-    background-image: url("/images/october_pic_1.jpg");
+    background-image: url("images/picMarch1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
@@ -15,4 +15,6 @@
   
   .first:hover {
     filter: grayscale(100);
+    background-color: white;
+    color: black;
   }
