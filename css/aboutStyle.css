@@ -54,38 +54,38 @@ br {
 }
 
 .instagram {
-  background-image: url(../images/Instagram_Glyph_Black.png);
+  background-image: url(../images/logoInstagramBlack.png);
 }
 
 .instagram:hover {
-  background-image: url(../images/Instagram_Glyph_White.png);
+  background-image: url(../images/logoInstagramWhite.png);
   background-color: black;
 }
 
 .deviantart {
-  background-image: url(../images/DeviantArt_Mark_black_1.png);
+  background-image: url(../images/logoDeviantArtBlack.png);
 }
 
 .deviantart:hover {
-  background-image: url(../images/DeviantArt_Mark_white_1.png);
+  background-image: url(../images/logoDeviantArtWhite.png);
   background-color: black;
 }
 
 .twitter {
-  background-image: url(../images/2021\ Twitter\ logo\ -\ black.png);
+  background-image: url(../images/logoTwitterBlack.png);
 }
 
 .twitter:hover {
-  background-image: url(../images/2021\ Twitter\ logo\ -\ white.png);
+  background-image: url(../images/logoTwitterWhite.png);
   background-color: black;
 }
 
 .facebook {
-  background-image: url(../images/f_logo_RGB-Black_144.png);
+  background-image: url(../images/logoFacebookBlack.png);
 }
 
 .facebook:hover {
-  background-image: url(../images/f_logo_RGB-White_144.png);
+  background-image: url(../images/logoFacebookWhite.png);
   background-color: black;
 }
 
